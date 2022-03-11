@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -74,6 +73,10 @@ margin-top: -15px;
     color: skyblue;
 }
 /* Left Article */
+/* Profile  */
+.container{
+    display: flex;
+}
 .container .left{
     width: 23%;
 }
@@ -91,6 +94,7 @@ margin-top: -15px;
 .container .left .profile h4{
     color: rgb(102, 76, 76);
 }
+/* Posts and Followers */
 .container .left  .my{
     display: flex;
     justify-content: space-between;
@@ -103,14 +107,18 @@ margin-top: -15px;
 .container .left  .my h4{
     color: rgb(129, 104, 104);
 }
+/* Menu  */
 .container .left  .Menu{
     display: block;
     margin-left: 20%;
-    
+    margin-top: 10%;
 }
 .container .left  .Menu h3{
     margin-bottom: 10%;
     cursor: pointer;
+}
+.container .left  .Menu h3:last-child{
+    margin-top: 25%;
 }
 .container .left  .Menu h3:hover{
     color: rgb(22, 159, 212);
@@ -118,4 +126,57 @@ margin-top: -15px;
 .container .left  .Menu h3 i{
     margin-right: 5%;
 }
-
+/* main */
+.container .main{
+    padding:2%  5%;
+    width: 50%;
+    background-color: rgb(255, 250, 250);
+}
+/* Story  */
+.container .main .storiesIntro h4{
+    padding: 10% 0%;
+    display: inline;
+}
+.container .main .storiesIntro h4:last-child{
+    margin-left: 72%;
+}
+/* Story */
+.stories{
+    margin: 5% 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.stories .story1 p i{
+    border-style: solid;
+    border-radius: 50%;
+    padding: 19px;
+    font-size: 20px;
+    margin-bottom: 6px;
+    border-width: 2px;
+    border-color: rgb(243, 100, 4);
+}
+.stories img{
+    width: 65px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(5, 103, 250);
+}
+/* Newfeeds  */
+.post .postFeeds{
+    display: flex;
+}
+.post .postFeeds h3{
+    margin-right: 65%;
+    font-weight:bolder;
+}
+.post .postFeeds h5:first-of-type{
+    margin-right: 5%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.post .postFeeds h5{
+    cursor: pointer;
+}
