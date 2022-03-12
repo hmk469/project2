@@ -9,6 +9,7 @@
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 15px;
+    position: sticky;
 }
 .Menu .logo{
     margin-left: 2%;
@@ -128,24 +129,29 @@ margin-top: -15px;
 }
 /* main */
 .container .main{
-    padding:2%  5%;
-    width: 50%;
-    background-color: rgb(255, 250, 250);
+    padding:3%  ;
+    width: 55%;
+    background-color: rgb(253, 253, 253);
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+    width: 0;
 }
 /* Story  */
 .container .main .storiesIntro h4{
-    padding: 10% 0%;
     display: inline;
 }
 .container .main .storiesIntro h4:last-child{
-    margin-left: 72%;
+    margin-left: 78%;
 }
 /* Story */
 .stories{
-    margin: 5% 0;
     display: flex;
     text-align: center;
     justify-content: space-between;
+    margin-top: 3%;
 }
 .stories .story1 p i{
     border-style: solid;
@@ -165,6 +171,7 @@ margin-top: -15px;
 /* Newfeeds  */
 .post .postFeeds{
     display: flex;
+    margin: 5% 0;
 }
 .post .postFeeds h3{
     margin-right: 65%;
@@ -180,3 +187,81 @@ margin-top: -15px;
 .post .postFeeds h5{
     cursor: pointer;
 }
+
+.cards .card1{
+    border: 1px solid black;
+    padding: 3%;
+    margin: 4% 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 0px 2px 0px #000000; 
+    box-shadow: 1px 0px 15px 0px #000000;
+}
+.cards .Name img{
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.cards .Name h4{
+    padding-top: 10px;
+    font-weight:bolder;
+    margin-bottom: -5px;
+}
+.cards .Name h5{
+    color: rgb(46, 43, 43);
+}
+.cards .Name h5 span{
+    margin-left: 65%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.cards .postImage img{
+    display: block;
+    margin: 3% 0;
+    width: 98%;
+    border-radius: 20px;
+    height: 300px;
+}
+.cards .comments {
+    margin-bottom: 3%;
+}
+.cards .comments span{
+    justify-content:space-between;
+    margin-right: 9%;
+    margin-left: 5px;
+}
+.cards .comments span:last-child{
+    margin-right: -20px;
+}
+.cards .comments span i{
+    margin-right: 10px;
+}
+.cards .comment p{
+    margin-bottom: 3%;
+}
+.cards .comment img{
+    width: 40px;
+}
+.cards .comment .commentBox{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding-top: 3px;
+    height: 30px;
+    margin-bottom: 5%;
+}
+.cards .comments  i{
+    cursor: pointer;
+}
+.cards .comment .commentBox input{
+    width: 79%;
+    border-style: none;
+    margin: 5px 10px;
+    outline: none;
+}
+.cards .comment .commentBox span{
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+    
