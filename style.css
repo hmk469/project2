@@ -205,7 +205,7 @@ margin-top: -15px;
 .cards .Name h4{
     padding-top: 10px;
     font-weight:bolder;
-    margin-bottom: -5px;
+
 }
 .cards .Name h5{
     color: rgb(46, 43, 43);
@@ -253,8 +253,11 @@ margin-top: -15px;
 .cards .comments  i{
     cursor: pointer;
 }
+.cards .comment .commentBox{
+    padding:3px ;
+}
 .cards .comment .commentBox input{
-    width: 79%;
+    width: 80%;
     border-style: none;
     margin: 5px 10px;
     outline: none;
@@ -312,5 +315,89 @@ margin-top: -15px;
     margin-top: 20%;
     text-align: center;
 }
-/* Resopnsive */
-@media screen and (max-width:1280px)
+/* Resopnsive 1280px */
+@media screen and (max-width:1280px){
+    .Menu .searchbar{
+        width: 40%;
+    }
+    .cards .Name h5 span{
+        margin-left: 60%;
+    }
+    .container .main .storiesIntro h4:last-child{
+        margin-left: 76%;
+    }
+    .cards .comments span{
+        margin-right: 7%;
+    }
+    .cards .comment .commentBox input{
+        width: 78%;
+    }
+    .right .cards .Feeds img{
+    width: 115px;
+}
+}
+@media screen and (max-width:1024px){
+    .Menu .searchbar input{
+        width: 80%;
+    }
+    .container .left{
+        width: 18%;
+    }
+    .container .main .storiesIntro h4:last-child{
+        margin-left: 72%;
+    }
+    .container .main .stories h5{
+        font-size: 11px;
+    }
+    .cards .Name h5 span{
+        margin-left: 53%;
+    }
+    .cards .comments span{
+        margin-right: 2%;
+    }
+    .cards .comment .commentBox input{
+        width: 73%;
+    }
+    .right .cards .ActiveNow .Active .Active1 h3{
+      font-size: 16px;
+    }
+    .right .cards .ActiveNow .Active .Active1 h4{
+        font-size: 14px;
+    }
+    .right .cards .Feeds img{
+        width: 92px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:912px){
+    body{
+        font-size: 14px;
+    }
+    .Menu .searchbar input{
+        width: 78%;
+    }
+    .container .main{
+        width: 60%;
+    }
+    .container .main .stories h5{
+        font-size: 10px;
+    }
+    .cards .comment .commentBox input{
+        width: 70%;
+    }
+    .right .cards .Feeds img{
+        width: 75px;
+        height: 60px;
+    }
+    .right .cards .ActiveNow .Active .Active1{
+        display: block;
+        margin-bottom: 25%;
+    }
+    .right .cards .ActiveNow .Active .Active1 h3{
+        padding-top: 15px;
+        font-size: 12px;
+      }
+      .right .cards .ActiveNow .Active .Active1 h4{
+        font-size: 10px;
+    }
+}
