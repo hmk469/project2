@@ -546,6 +546,106 @@ body{
 }
 @media screen and (max-width:540px){
     body{
+        font-size: 8px;
+    }
+    .Menu .logo{
+        font-size: 9px;
+    }
+    .Menu .searchbar{
+        width: 35%;
+        height: 25px;
+        align-items: center;
+    }
+    .Menu .searchbar i{
+        font-size: 11px;
+    }
+    .Menu .searchbar input{
+        width: 66%;
+        font-size: 9px;
+        margin-top: -5px;
+    }
+    .Menu .creatFile button{
+        font-size: 8px;
+        width: 70px;
+        height: 20px;
+        margin: 3px 0;
+    }
+    .container .left .profile h3{
+        font-size: 9px;
+    }
+    .container .left .profile h4{
+        font-size: 7px;
+    }
+    .container .left .profile img{
+        width: 50px;
+    }
+    .container .main .storiesIntro h4:last-child{
+        margin-left: 205px;
+    } 
+    .container .main .stories img{
+        width: 42px;
+    }
+    .container .main .stories .story1 p i{
+        font-size: 10px;
+        width: 42px;
+        height: 42px;
+        padding:  15px 5px;
+    }
+    .container .main .stories h5, .container .main .stories .story1 h5{
+        font-size: 6px;
+    }
+    .main .cards .card1 .Name  img{
+        width: 40px;
+        margin-top: 5px;
+    }
+    .container .main .card1 h5 span{
+        margin-left: 110px;
+    }
+    .container .main .card1 .postImage img{
+        width: 98%;
+        height:200px;
+    }
+    .main .comments span{
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    .main .comment .commentBox{
+        width:85%;
+        height: 15px;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        margin-left: 40px;
+    }
+    .main .cards .card1 .comment img{
+        width: 30px;
+    }
+    .main .cards .card1 .comment .commentBox input{
+       font-size: 8px;
+       width:60%;
+    }
+    .main .cards .card1 .comment .commentBox span i{
+        font-size: 9px;
+    }
+    .right .cards .Feeds img{
+        margin-left: 2px;
+        width: 37px;
+        height: 30px;
+    }
+    .right .cards .ActiveNow  h3{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .right  .cards .ActiveNow .Active .Active1 span img{
+        width: 30px;
+        margin-left: 5px;
+    }
+    .right  .cards .ActiveNow .Active .Active1{
+        margin-left: -20px;
+    }
+    .right  .cards .ActiveNow .Active .Active1 h3{
+        font-size: 8px;
+    }
+    .right  .cards .ActiveNow .Active .Active1 h4{
         font-size: 7px;
     }
 }
